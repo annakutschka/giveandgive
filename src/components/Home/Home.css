@@ -1,0 +1,30 @@
+.homeWrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.homeWrapper img{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 10%;
+	margin-bottom: 20%;
+}
+.wrapper2{
+	display: flex;
+	flex-direction: row;
+	margin-top: 29%;
+	justify-content: space-around;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.button6{
+	padding: 0.3em 0.3em;
+	border-radius: 10px;
+	background-color: #fefefe;
+	color: #444;
+	font-size: 0.8em;
+	text-decoration: none !import;
+}
+.button6 p{
+	text-decoration: none;
+}

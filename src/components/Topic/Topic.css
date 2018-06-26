@@ -1,0 +1,11 @@
+.LinkToTask{
+	text-decoration: none;
+	margin-top: 1.5em;
+}
+.taskList{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 1em;
+}

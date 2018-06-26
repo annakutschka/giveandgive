@@ -1,0 +1,28 @@
+.topicList{
+	display: flex;
+	flex-direction: column;
+}
+.topic{
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	justify-content: space-between;
+	padding-top: 1.3em;
+	padding-left: 2em;
+	padding-right: 4em;
+	padding-bottom: 1em;
+	border-bottom: 0.04em solid white;
+}
+.topicIcon{
+	width: 3.5em;
+	height: 3.5em;
+}
+.LinkToTopics{
+	text-decoration: none;
+}
+.topicName{
+	color: white;
+	font-weight: lighter;
+	font-size: 1.2em;
+	font-family: 'Black Han Sans', sans-serif;
+}

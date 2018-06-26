@@ -1,0 +1,83 @@
+.body{
+	background-color: white;
+
+}
+.tabs{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border: 1px solid #444;
+	margin-bottom: -1em;
+	cursor: pointer;
+}
+.currentTab{
+	background-color: #d5a700;
+	font-family: 'Black Han Sans', sans-serif;
+	padding-top: 2em;
+	text-align: center;
+	width: 100%;
+	color: #555;
+	font-size: 1.2em;
+	border-right: 1px solid #444;
+	box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.2), 3px 3px 5px 0 rgba(0,0,0,0.19);
+}
+.tab{
+	background-color: #e6b800;
+	height: 3em;
+	font-family: 'Black Han Sans', sans-serif;
+	padding-top: 2em;
+	text-align: center;
+	width: 100%;
+	color: #555;
+	font-size: 1.2em;
+	border-right: 1px solid #444;
+}
+.headline img{
+	width: 71%;
+}
+.headline h1{
+	font-size: 2em;
+}
+.LinkToTask2{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1px solid #444;
+	text-decoration: none;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+.taskTitle{
+	color: #444;
+	padding-left: 0.5em;
+}
+.accepted{
+	color: green;
+	font-size: 0.4em;
+	padding-right: 0.5em;
+}
+.accepted .karmaPoint{
+	display: none;
+}
+.done{
+	font-size: 0.3em;
+	padding-right: 0.5em;
+}
+.done p{
+	display: none;
+}
+.done .karmaPoint{
+	margin-top: -3em;
+    margin-bottom: -3em;
+	width: 15em;
+	height: 13em;
+}
+.pending{
+	color: #e6b800;
+	font-size: 0.4em;
+	padding-right: 0.5em;
+}
+.pending .karmaPoint{
+	display: none;
+}

@@ -1,0 +1,9 @@
+.input{
+    text-align: center;
+}
+
+input{
+	width: 80%;
+	font-size: 1em;
+	padding: 1em;
+}

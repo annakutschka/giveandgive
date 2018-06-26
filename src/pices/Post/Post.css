@@ -1,0 +1,44 @@
+.post{
+	background-color: #F8F8FF;
+	width: 18em;
+	height: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-distance{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.post-text{
+    width: 75%;
+}
+
+.post-text p{
+    font-size: 1em;
+    color: #000000;
+}
+
+.post-distance{
+    width: 40%;
+    color: #000000;
+}
+
+.post-distance p{
+    flex-grow: 1;
+    font-size: 0.8em;
+    color: 	#808080;
+}
+
+.post-button{
+    text-align: right;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post-button img{
+    width: 100%;
+}

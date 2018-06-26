@@ -1,0 +1,46 @@
+.stars{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.picture{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.profile_edit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile_edit img{
+    width: 4em;
+    height: 4em;
+    justify-content: flex-end;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.description p{
+    font-size: 1em;
+}
+
+.description a{
+    font-size: 1em;
+    color: #F8F8FF;
+}
+
+.bar {
+    fill: #F8F8FF;
+    height: 21px;
+    transition: fill .3s ease;
+    cursor: pointer
+}

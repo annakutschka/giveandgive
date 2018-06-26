@@ -1,0 +1,9 @@
+.textarea{
+    text-align: center;
+}
+
+textarea{
+	width: 80%;
+	font-size: 1em;
+	padding: 1em;
+}

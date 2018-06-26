@@ -1,0 +1,27 @@
+.formular{
+    color: #F8F8FF;
+}
+.selectField {
+    background-color: red;
+    color: black;
+}
+
+.textarea{
+    text-align: center;
+}
+
+textarea{
+	width: 80%;
+	font-size: 1em;
+	padding: 1em;
+}
+
+.select{
+    width:90%;
+    height: auto;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 1em;
+	padding: 1em;
+}

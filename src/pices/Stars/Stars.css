@@ -1,0 +1,13 @@
+polygon .white{
+    fill:#F8F8FF;
+    stroke:#F8F8FF;
+    stroke-width:2;
+    fill-rule:nonzero;
+}
+
+polygon .yellow{
+    fill:#e6b800;
+    stroke:#e6b800;
+    stroke-width:2;
+    fill-rule:nonzero;
+}

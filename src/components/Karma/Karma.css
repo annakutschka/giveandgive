@@ -1,0 +1,16 @@
+.karmapage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.points{
+    color: #e6b800;
+    font-size: 4em;
+}
+
+.karmapage img{
+    width: 30%;
+    height: 30%;
+}
